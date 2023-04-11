@@ -1,0 +1,74 @@
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index e594bbe..3b64e7d 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -445,36 +445,49 @@ module.exports = {
+       );
+   },
+   // Deprecated Prop Types
++  // get ColorPropType(): $FlowFixMe {
++  //   console.warn(
++  //     'ColorPropType will be removed from React Native. Migrate to ' +
++  //       "ColorPropType exported from 'deprecated-react-native-prop-types'.",
++  //   );
++  //   return require('deprecated-react-native-prop-types').ColorPropType;
++  // },
++  // get EdgeInsetsPropType(): $FlowFixMe {
++  //   console.warn(
++  //     'EdgeInsetsPropType will be removed from React Native. Migrate to ' +
++  //       "EdgeInsetsPropType exported from 'deprecated-react-native-prop-types'.",
++  //   );
++  //   return require('deprecated-react-native-prop-types').EdgeInsetsPropType;
++  // },
++  // get PointPropType(): $FlowFixMe {
++  //   console.warn(
++  //     'PointPropType will be removed from React Native. Migrate to ' +
++  //       "PointPropType exported from 'deprecated-react-native-prop-types'.",
++  //   );
++  //   return require('deprecated-react-native-prop-types').PointPropType;
++  // },
++  // get ViewPropTypes(): $FlowFixMe {
++  //   console.warn(
++  //     'ViewPropTypes will be removed from React Native. Migrate to ' +
++  //       "ViewPropTypes exported from 'deprecated-react-native-prop-types'.",
++  //   );
++  //   return require('deprecated-react-native-prop-types').ViewPropTypes;
++  // },
+   get ColorPropType(): $FlowFixMe {
+-    console.warn(
+-      'ColorPropType will be removed from React Native. Migrate to ' +
+-        "ColorPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
+-    return require('deprecated-react-native-prop-types').ColorPropType;
++    return require("deprecated-react-native-prop-types").ColorPropType
+   },
+   get EdgeInsetsPropType(): $FlowFixMe {
+-    console.warn(
+-      'EdgeInsetsPropType will be removed from React Native. Migrate to ' +
+-        "EdgeInsetsPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
+-    return require('deprecated-react-native-prop-types').EdgeInsetsPropType;
++    return require("deprecated-react-native-prop-types").EdgeInsetsPropType
+   },
+   get PointPropType(): $FlowFixMe {
+-    console.warn(
+-      'PointPropType will be removed from React Native. Migrate to ' +
+-        "PointPropType exported from 'deprecated-react-native-prop-types'.",
+-    );
+-    return require('deprecated-react-native-prop-types').PointPropType;
++    return require("deprecated-react-native-prop-types").PointPropType
+   },
+   get ViewPropTypes(): $FlowFixMe {
+-    console.warn(
+-      'ViewPropTypes will be removed from React Native. Migrate to ' +
+-        "ViewPropTypes exported from 'deprecated-react-native-prop-types'.",
+-    );
+-    return require('deprecated-react-native-prop-types').ViewPropTypes;
++    return require("deprecated-react-native-prop-types").ViewPropTypes
+   },
+ };
+ 
++
+ if (__DEV__) {
+   /* $FlowFixMe[prop-missing] This is intentional: Flow will error when
+    * attempting to access ART. */

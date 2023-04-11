@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054775480579",
+    "project_id": "cameraipreactnative",
+    "storage_bucket": "cameraipreactnative.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054775480579:android:1d827eb3f3300083cb9936",
+        "android_client_info": {
+          "package_name": "com.cameraip_reactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054775480579-fm4ohs06ecvo5k5b42t80hg739a2q7ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClduDIfQ0bf5mIv87ntNIK7we1t_D8Js4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054775480579-fm4ohs06ecvo5k5b42t80hg739a2q7ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
